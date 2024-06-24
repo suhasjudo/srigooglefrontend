@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 26px;
+  color: white;
+  background-color: #79155B;
+}
+
+.nav-link{
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+}
+
+.nav-item .active{
+  border-bottom: 3px solid white;
+  /* color: white; */
+}
+
+.navbar-brand{
+  font-weight: 800;
+  font-size: 30px;
+  color: White;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.searchbutton{
+  background-color: white;
+  color: #79155B;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.searchbutton:hover{
+  font-weight: bolder;
+}
+
+
+.logo{
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.footer{
+  color: white;
+  padding: 25px;
+  background:#000000;
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  );
+  background: linear-gradient(to right, #434343,#000000 );
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba
+  
+}
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+.product-link{
+  text-decoration: none;
+  color: black;
+}
+
+.conhead1 {
+  background-color: #79155B;
+  /* color: white, */
+  padding-left: 10%;
+  padding-right:15%;
+  padding-top: 5%;
+}
+
+.conh2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin-top: 5%
+}
+
+.conp{
+  font-family: "Poppins", sans-serif;
+  color: white
+}
+
+.conhead1 button{
+  background-color: white;
+  color: #79155B;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid #79155B;
+  margin-top: 2%;
+}
+
+.conhead1 button:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.conheadimg img{
+  width: 200px;
+  height: 270px;
+  margin-left: 40%;
+  /* padding-bottom: 20%; */
+  margin-bottom: 20%;
+  border-radius: 8px;
+}
+
+.productlogo img{
+  width: 200px;
+  height: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.productlogo{
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.brands h3{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 40px;
+  color: #240A34;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.brands{
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-right: 5%;
+  /* margin-bottom: 2;  */
+  border-radius: 10px;
+}
+
+.guarh1{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 40px;
+  color: #240A34;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.guarantee{
+  margin-top: 5%;
+  background-color: #79155B;
+  color: white;
+}
+
+.guarantee h1{
+  color: white;
+}
+
+.textguarant img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: -5%;
+}
+
+.textguarant2{
+  margin-left: 25%;
+}
+
+.textguarant2 img{
+  margin-top: 13%;
+  width: 150px;
+  height: 150px;
+  margin-left:80px;
+}
+
+.textguarant h4{
+  margin-top: -2%;
+  text-align: center;
+}
+
+.textguarant2 h4{
+  text-align: center;
+}
+
+
+.textguarant{
+  margin-left: 25%;
+}
+
+
+.btn{
+  color: white;
+  background-color: #79155B;
+  margin-bottom: 2px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #79155B;
+  color: white; 
+  font-weight: bolder;
+}
+
+.getin{
+  display:  flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  align-items: center;
+}
+
+
+.getin h1{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+}
+
+
+.getin p{
+  font-family: 'poppins';
+  font-size: 20px;
+}
+
+.getin .btn{
+  width: 100px;
+  height: 35px;
+  /* padding: 8px; */
+}
+
+
+.prodescription p{
+  font-family: 'poppins';
+  font-size: 18px;
+}
+
+@media (max-width: 600px){
+  .conhead1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .conhead1 button{
+    margin-left: 40px;
+  }
+
+  .conheadimg{
+    margin-top: 15px;
+    /* margin-right: 150px; */
+  }
+  .conheadimg img{
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  .productlogo{
+    margin-left: 70px;
+  }
+
+
+  .textguarant2{
+    margin-left: 50px;
+  }
+}

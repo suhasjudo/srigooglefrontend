@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+.idea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.textcard p{
+    letter-spacing: normal;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    padding-top: 30px;
+    line-height: 2;
+    text-align: justify;
+}
+
+
+.head h4{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.textcard{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.imgcard img{
+    width: 500px;
+    height: 350px;
+    margin-left: 35%; 
+    border-radius: 8px;   
+}
+
+
+.head h1{
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #6C0345;
+    padding-top: 30px;
+
+}
+
+.card{
+    /* margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%; */
+    border-top: 1px solid #79155B;
+}
+
+.card h3{
+    font-weight: bold;
+    color:#79155B;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.aboutcard{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.cards{
+    width: 300px;
+    height: 300px;  
+    border: 1px solid #79155B;
+    background-color: #79155B;
+    border-radius: 8px;
+    margin-left: 2%; 
+    margin-right: 2%; 
+}
+
+.cards p{
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 18px;
+    font-family: 'poppins';
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%px;
+    margin-top: 5%;
+    /* border: 1px solid #79155B; */
+}
+
+.cons h4{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #79155B;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.cons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding-left: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.cons img{
+    width:450px;
+    height: 280px;
+    padding-left: 10px;
+}
+
+
+.cons1{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding-left: 20px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.cons1 h4{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #79155B;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.cons1 h5{
+    padding-top: 30px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: black;
+    padding-left: 40px;
+    font-style: normal;
+}
+
+.cons1 ul{
+    list-style: none;
+    padding-top: 20px;
+    /* padding-left: 100px; */
+}
+
+.cons1 li{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.qr{
+    width: 120px;
+    height: 120px;
+    margin-left: 5%;
+}
+
+
+@media (max-width: 600px) {
+    .imgcard img {
+        width: 80%;
+        margin-left: 30px;
+        height: auto;
+    }
+
+    .cards{
+        margin-top: 4px;
+        margin-left: 8%;
+    }
+
+    .cont{
+        display: flex;
+        flex-direction: column;
+        margin-left: -190px;
+    }
+
+    .cons{
+        width: 380px;
+        height: 380px;
+    }
+
+    .cons img{
+        width: 350px;
+        margin-left: -10px;
+    }
+
+    .cons1{
+        width: 380px;
+        height: 430px;
+    }
+
+    .cons1 img{
+        margin-left: -10px;
+    }
+
+}
+
+/* Additional styles for clarity and maintainability */
+.cons h4, .cons1 h4 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.cons1 h5 {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.cons1 ul {
+    padding-top: 20px;
+}
